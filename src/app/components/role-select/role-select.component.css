@@ -1,0 +1,49 @@
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+
+.role-select {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .role-select h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+.client {
+  background-color: #f44336; 
+}
+
+.client:hover {
+  background-color: #d32f2f;
+}
+  
+  .support {
+    background-color: #2196f3;
+  }
+  
+  .support:hover {
+    background-color: #1976d2;
+  }
